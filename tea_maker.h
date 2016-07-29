@@ -23,8 +23,8 @@ class TeaMaker
 {
 public:
 	TeaMaker(Tea, Sugar, Ice) {}
-	
-	std::string Make() { return {}; }
+
+	std::string Make() { return "NOT IMPLEMENT"; }
 };
 
 #endif /* tea_maker_hpp */

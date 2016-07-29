@@ -11,6 +11,7 @@
 
 TEST_CASE("TeaMaker Essentials", "[Build]")
 {
+	CAPTURE(TeaMaker(kBlackTea, .5, .3).Make());
 	REQUIRE(TeaMaker(kBlackTea, .5, .3).Make() == "Black Tea | Half Sugar | Less Ice");
 }
 
