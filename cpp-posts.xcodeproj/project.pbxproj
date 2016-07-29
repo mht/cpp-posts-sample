@@ -6,6 +6,11 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		22120E2C1D4B08C0005B585A /* tea_maker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22120E2A1D4B08C0005B585A /* tea_maker.cpp */; };
+		22120E2E1D4B0C98005B585A /* tea_maker_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22120E2D1D4B0C98005B585A /* tea_maker_test.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		22120E1B1D4AFFE3005B585A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +26,9 @@
 /* Begin PBXFileReference section */
 		22120E1D1D4AFFE3005B585A /* cpp-posts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-posts"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22120E291D4B02D7005B585A /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = SOURCE_ROOT; };
+		22120E2A1D4B08C0005B585A /* tea_maker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tea_maker.cpp; sourceTree = SOURCE_ROOT; };
+		22120E2B1D4B08C0005B585A /* tea_maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tea_maker.h; sourceTree = SOURCE_ROOT; };
+		22120E2D1D4B0C98005B585A /* tea_maker_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tea_maker_test.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,10 @@
 		22120E1F1D4AFFE3005B585A /* cpp-posts */ = {
 			isa = PBXGroup;
 			children = (
+				22120E2A1D4B08C0005B585A /* tea_maker.cpp */,
+				22120E2B1D4B08C0005B585A /* tea_maker.h */,
 				22120E291D4B02D7005B585A /* catch.hpp */,
+				22120E2D1D4B0C98005B585A /* tea_maker_test.cpp */,
 			);
 			path = "cpp-posts";
 			sourceTree = "<group>";
@@ -113,6 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22120E2C1D4B08C0005B585A /* tea_maker.cpp in Sources */,
+				22120E2E1D4B0C98005B585A /* tea_maker_test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
